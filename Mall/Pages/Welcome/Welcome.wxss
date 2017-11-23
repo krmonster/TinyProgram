@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portrait {
+  height: 170rpx;
+  width: 170rpx;
+  margin-top: 210rpx;
+}
+
+.user_hello {
+  margin-top: 140rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.welcome_button {
+  border: 1px solid #000;
+  height: 100rpx;
+  width: 310rpx;
+  border-radius: 25rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #000;
+  margin-top: 160rpx;
+}
+page{
+  background-color: antiquewhite;
+}

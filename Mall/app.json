@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "Pages/Welcome_0/Welcome_0",
+    "Pages/Welcome_1/Welcome_1",
+    "Pages/Welcome/Welcome"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fffbbb",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "鲜菜市场",
+    "backgroundColor": "#fff1c1",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  }
+}

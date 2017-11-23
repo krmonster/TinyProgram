@@ -1,0 +1,32 @@
+<!--Pages/Welcome_0/Welcome_0.wxml-->
+<!-- <text>Pages/Welcome_0/Welcome_0.wxml</text> -->
+<swiper class="swiper" indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' indicator-active-color='{{indicatorActiveColor}}'>
+  <block wx:for="{{ImgUrl}}">
+    <swiper-item>
+      <image class='ImgUrl' src='{{item}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 第一个新闻块 -->
+<view class='NewsBlock'>
+  <!-- 标题块 -->
+  <view class='TitleBlock'>
+    <image class='Author_Portrait' src='{{AuthorPortrait_Img}}'></image>
+    <text class='TitleBlock_Date'>发表时间：</text>
+  </view>
+
+  <!-- 正文块 -->
+  <text class='Title'>为什么说新鲜的芹菜非常难得？</text>
+  <image class='Text_Img' src='{{Text_Img}}'></image>
+  <text class='Text'>{{Text1}}</text>
+
+  <!-- 底部栏 -->
+  <view class='Bottom'>
+    <image class='Bottom_Collection' src='{{Bollection_Img}}'></image>
+    <text class='Bottom_Collection_Num'>123</text>
+    <image class='Bottom_AlreadyViewed' src='{{AlreadyViewed_Img}}'></image>
+    <text class='Bottom_AlreadyViewed_Num'>456</text>
+  </view>
+
+</view>
