@@ -1,0 +1,10 @@
+{
+    "window": {
+      "navigationBarBackgroundColor": "#fffbbb",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "鲜菜市场",
+      "backgroundColor": "#ffffff",
+      "backgroundTextStyle": "dark",
+      "enablePullDownRefresh": false
+    }
+}

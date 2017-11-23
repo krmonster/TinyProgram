@@ -1,0 +1,84 @@
+/* Pages/Welcome_0/Welcome_0.wxss */
+
+.ImgUrl {
+  width: 100%;
+  height: 440.68rpx;
+}
+
+.swiper {
+  width: 100%;
+  height: 441.68rpx;
+}
+
+.NewsBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  background-color: #fff;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+
+.TitleBlock {
+  margin: 10rpx 0 10rpx 10rpx;
+}
+
+.Author_Portrait {
+  height: 75rpx;
+  width: 75rpx;
+  margin: 8rpx 12rpx 8rpx 8rpx;
+  vertical-align: middle;
+}
+
+.TitleBlock_Date {
+  margin-left: 20rpx;
+  font-size: 21rpx;
+  vertical-align: middle;
+}
+
+.Title {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+  margin-left: 14rpx;
+  margin-bottom: 9rpx;
+}
+
+.Text_Img {
+  width: 100%;
+  height: 524.499rpx;
+  margin-bottom: 10px;
+}
+
+.Text {
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 18rpx;
+  margin-left: 20rpx;
+  letter-spacing: 2rpx;
+  font-family: cursive;
+  line-height: 40rpx;
+}
+
+.Bottom {
+  font-size: 15px;
+  flex-direction: row;
+  font: 13px;
+}
+
+.Bottom_Collection, .Bottom_AlreadyViewed {
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin-left: 9px;
+}
+
+.Bottom_Collection_Num, .Bottom_AlreadyViewed_Num {
+  vertical-align: middle;
+  font-family: cursive;
+  color: #666;
+  margin-left: 8rpx;
+  font-size: 11px;
+}
