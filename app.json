@@ -1,8 +1,8 @@
 {
   "pages": [
-    "Pages/Welcome/Welcome",
     "Pages/Welcome_0/Welcome_0",
-    "Pages/Welcome_1/Welcome_1"
+    "Pages/Welcome_1/Welcome_1",
+    "Pages/Welcome/Welcome"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fffbbb",
